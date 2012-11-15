@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E2AA459163A384300657334 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E2AA458163A384300657334 /* AudioToolbox.framework */; };
+		9E2AA45C163A411B00657334 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E2AA45B163A411B00657334 /* icon.png */; };
+		9E2AA461163A415C00657334 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E2AA460163A415C00657334 /* Default@2x.png */; };
 		9ECA10A11638182600E664E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECA10A01638182600E664E3 /* UIKit.framework */; };
 		9ECA10A31638182600E664E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECA10A21638182600E664E3 /* Foundation.framework */; };
 		9ECA10A51638182600E664E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECA10A41638182600E664E3 /* CoreGraphics.framework */; };
@@ -21,6 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E2AA458163A384300657334 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9E2AA45B163A411B00657334 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		9E2AA45D163A412900657334 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9E2AA460163A415C00657334 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		9ECA109C1638182600E664E3 /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ECA10A01638182600E664E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9ECA10A21638182600E664E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -44,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E2AA459163A384300657334 /* AudioToolbox.framework in Frameworks */,
 				9ECA10A11638182600E664E3 /* UIKit.framework in Frameworks */,
 				9ECA10A31638182600E664E3 /* Foundation.framework in Frameworks */,
 				9ECA10A51638182600E664E3 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +64,10 @@
 		9ECA10911638182600E664E3 = {
 			isa = PBXGroup;
 			children = (
+				9E2AA460163A415C00657334 /* Default@2x.png */,
+				9E2AA45D163A412900657334 /* Default.png */,
+				9E2AA45B163A411B00657334 /* icon.png */,
+				9E2AA458163A384300657334 /* AudioToolbox.framework */,
 				9ECA10A61638182600E664E3 /* Timer */,
 				9ECA109F1638182600E664E3 /* Frameworks */,
 				9ECA109D1638182600E664E3 /* Products */,
@@ -164,6 +176,8 @@
 				9ECA10B51638182600E664E3 /* Default@2x.png in Resources */,
 				9ECA10B71638182600E664E3 /* Default-568h@2x.png in Resources */,
 				9ECA10BD1638182600E664E3 /* TimerViewController.xib in Resources */,
+				9E2AA45C163A411B00657334 /* icon.png in Resources */,
+				9E2AA461163A415C00657334 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +307,7 @@
 				9ECA10C21638182600E664E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
